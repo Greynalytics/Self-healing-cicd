@@ -1,0 +1,15 @@
+
+version: 0.2
+phases:
+  install:
+    commands:
+      - node -v
+  build:
+    commands:
+      - node test.js
+      - mkdir -p app
+      - cp -r app_template/* app/ || echo "app_template missing, using existing app"
+      - zip -qr build.zip app
+artifacts:
+  files:
+    - build.zip

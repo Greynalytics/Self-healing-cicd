@@ -1,0 +1,10 @@
+
+{
+  "name": "pipeline-src",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "node test.js",
+    "build": "zip -qr build.zip app"
+  },
+  "devDependencies": {}
+}
