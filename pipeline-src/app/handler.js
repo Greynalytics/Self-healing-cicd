@@ -1,4 +1,4 @@
 
 exports.handler = async () => {
-  return { statusCode: 200, body: "Hello from pipeline-src app" "hx"};
+  return { statusCode: 200, body: "Hello from pipeline-src app" "hxx"};
 };
